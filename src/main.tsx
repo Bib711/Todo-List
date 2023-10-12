@@ -6,7 +6,7 @@ const rootElement = document.getElementById('root');
 
 ReactDOM.createRoot(rootElement!).render(
   <React.StrictMode>
-    <App todo={[App]} />
+    <App todo={{ id: 1, text: 'Example', completed: false }} />
   </React.StrictMode>,
 );
 
