@@ -22,10 +22,8 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url("./Images/rgbpic.avif");
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
+  background: rgb(58,62,74);
+  background: linear-gradient(90deg, rgba(58,62,74,1) 0%, rgba(186,171,230,1) 0%, rgba(254,219,177,1) 100%);
 }
 
 @keyframes gradientAnimation {
